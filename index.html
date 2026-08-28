@@ -265,22 +265,2017 @@
 // ================== DATA: extracted from real Versant 4 Skills Essential test sets ==================
 
 // Part A — Repeat (listen and repeat exactly, 6 seconds)
-const REPEAT_BANK = [];
+const REPEAT_BANK = [
+{
+    "en": "My uncle will join us for dinner tonight.",
+    "vi": "Cậu tôi sẽ đến ăn tối cùng chúng tôi tối nay."
+  },
+  {
+    "en": "Please switch off the computer screens before you go home.",
+    "vi": "Hãy tắt màn hình máy tính trước khi bạn về nhà nhé."
+  },
+  {
+    "en": "The subway broke down for twenty minutes this morning.",
+    "vi": "Tàu điện ngầm sáng nay bị hỏng hai mươi phút."
+  },
+  {
+    "en": "I need to stop by the bakery on my way home.",
+    "vi": "Tôi cần ghé qua tiệm bánh trên đường về nhà."
+  },
+  {
+    "en": "He usually checks his email before breakfast.",
+    "vi": "Anh ấy thường kiểm tra email trước bữa sáng."
+  },
+  {
+    "en": "Our flight was delayed because of heavy rain.",
+    "vi": "Chuyến bay của chúng tôi bị hoãn vì mưa lớn."
+  },
+  {
+    "en": "She takes her dog for a walk every evening.",
+    "vi": "Cô ấy dắt chó đi dạo mỗi tối."
+  },
+  {
+    "en": "The printer in our office keeps running out of paper.",
+    "vi": "Máy in ở văn phòng chúng tôi cứ hết giấy hoài."
+  },
+  {
+    "en": "Could you copy the whole team on that email?",
+    "vi": "Bạn có thể cc cả nhóm vào email đó không?"
+  },
+  {
+    "en": "We're planning a weekend trip to the mountains next month.",
+    "vi": "Chúng tôi đang lên kế hoạch đi núi vào cuối tuần tháng tới."
+  },
+  {
+    "en": "My neighbor is repainting his fence this week.",
+    "vi": "Hàng xóm của tôi đang sơn lại hàng rào tuần này."
+  },
+  {
+    "en": "I usually plan my tasks first thing in the morning.",
+    "vi": "Tôi thường lên kế hoạch công việc ngay khi bắt đầu buổi sáng."
+  },
+  {
+    "en": "The client asked for a quick update on the project.",
+    "vi": "Khách hàng yêu cầu cập nhật nhanh về dự án."
+  },
+  {
+    "en": "It's supposed to rain tomorrow, so bring an umbrella.",
+    "vi": "Ngày mai trời có thể mưa, nhớ mang theo ô nhé."
+  },
+  {
+    "en": "I need to renew my driving license before the trip.",
+    "vi": "Tôi cần gia hạn bằng lái xe trước chuyến đi."
+  },
+  {
+    "en": "Our team meeting was moved to Friday afternoon.",
+    "vi": "Cuộc họp nhóm của chúng tôi đã được dời sang chiều thứ Sáu."
+  },
+  {
+    "en": "She left her umbrella on the train yesterday.",
+    "vi": "Cô ấy để quên ô trên tàu hôm qua."
+  },
+  {
+    "en": "Could you double check these numbers before I send them?",
+    "vi": "Bạn có thể kiểm tra lại các con số này trước khi tôi gửi đi không?"
+  },
+  {
+    "en": "My father is recovering well after his surgery.",
+    "vi": "Bố tôi đang hồi phục tốt sau ca phẫu thuật."
+  },
+  {
+    "en": "We ran out of printer ink in the office.",
+    "vi": "Văn phòng chúng tôi hết mực in rồi."
+  },
+  {
+    "en": "The landlord is fixing the heater this afternoon.",
+    "vi": "Chủ nhà đang sửa máy sưởi chiều nay."
+  },
+  {
+    "en": "I forgot to close the window before it started raining.",
+    "vi": "Tôi quên đóng cửa sổ trước khi trời bắt đầu mưa."
+  },
+  {
+    "en": "He's been working from home for the past two weeks.",
+    "vi": "Anh ấy đã làm việc tại nhà hai tuần nay."
+  },
+  {
+    "en": "Can we reschedule our call to next Tuesday?",
+    "vi": "Chúng ta có thể dời cuộc gọi sang thứ Ba tuần sau không?"
+  },
+  {
+    "en": "The kids have a day off school tomorrow.",
+    "vi": "Bọn trẻ được nghỉ học vào ngày mai."
+  },
+  {
+    "en": "I need to pick up my dry cleaning today.",
+    "vi": "Hôm nay tôi cần lấy đồ giặt ủi."
+  },
+  {
+    "en": "Our new colleague starts on Monday.",
+    "vi": "Đồng nghiệp mới của chúng tôi bắt đầu làm việc vào thứ Hai."
+  },
+  {
+    "en": "She's saving up for a family vacation next year.",
+    "vi": "Cô ấy đang tiết kiệm tiền cho kỳ nghỉ gia đình năm sau."
+  },
+  {
+    "en": "The traffic was heavy near the bridge this evening.",
+    "vi": "Giao thông gần cây cầu tối nay rất đông."
+  },
+  {
+    "en": "I left my badge at home again.",
+    "vi": "Tôi lại để quên thẻ nhân viên ở nhà."
+  },
+  {
+    "en": "We should confirm the hotel booking soon.",
+    "vi": "Chúng ta nên xác nhận đặt phòng khách sạn sớm."
+  },
+  {
+    "en": "My mother is teaching me how to bake bread.",
+    "vi": "Mẹ tôi đang dạy tôi cách làm bánh mì."
+  },
+  {
+    "en": "The elevator in our building is out of service.",
+    "vi": "Thang máy ở tòa nhà chúng tôi đang ngừng hoạt động."
+  },
+  {
+    "en": "Please remember to submit your timesheet by Friday.",
+    "vi": "Hãy nhớ nộp bảng chấm công trước thứ Sáu."
+  },
+  {
+    "en": "I'm going grocery shopping after work today.",
+    "vi": "Hôm nay tôi sẽ đi siêu thị sau giờ làm."
+  },
+  {
+    "en": "Our supplier called to confirm the delivery date.",
+    "vi": "Nhà cung cấp gọi để xác nhận ngày giao hàng."
+  },
+  {
+    "en": "He always arrives early for morning meetings.",
+    "vi": "Anh ấy luôn đến sớm cho các cuộc họp buổi sáng."
+  },
+  {
+    "en": "The weather has been unusually warm this week.",
+    "vi": "Thời tiết tuần này ấm bất thường."
+  },
+  {
+    "en": "I need to prepare some questions before the interview.",
+    "vi": "Tôi cần chuẩn bị vài câu hỏi trước buổi phỏng vấn."
+  },
+  {
+    "en": "Could you print two copies of this contract?",
+    "vi": "Bạn có thể in hai bản hợp đồng này không?"
+  },
+  {
+    "en": "My brother just moved into a new apartment.",
+    "vi": "Em trai tôi vừa chuyển đến căn hộ mới."
+  },
+  {
+    "en": "We're switching to a new email system next month.",
+    "vi": "Chúng tôi sẽ chuyển sang hệ thống email mới vào tháng tới."
+  },
+  {
+    "en": "She caught a cold and stayed home yesterday.",
+    "vi": "Cô ấy bị cảm và ở nhà hôm qua."
+  },
+  {
+    "en": "The Wi-Fi in the office has been very slow lately.",
+    "vi": "Wi-Fi ở văn phòng dạo này rất chậm."
+  },
+  {
+    "en": "I'll call the plumber about the leaking tap.",
+    "vi": "Tôi sẽ gọi thợ sửa ống nước về vòi nước bị rò."
+  },
+  {
+    "en": "Our manager is out of town this week.",
+    "vi": "Sếp của chúng tôi đi công tác xa tuần này."
+  },
+  {
+    "en": "Can you save me a seat at the meeting?",
+    "vi": "Bạn giữ giúp tôi một chỗ ngồi trong cuộc họp nhé?"
+  },
+  {
+    "en": "The grocery store near my house closes early on Sundays.",
+    "vi": "Cửa hàng tạp hóa gần nhà tôi đóng cửa sớm vào Chủ Nhật."
+  },
+  {
+    "en": "I need to fill up the car before we leave.",
+    "vi": "Tôi cần đổ xăng trước khi chúng ta đi."
+  },
+  {
+    "en": "She's preparing a presentation for tomorrow's meeting.",
+    "vi": "Cô ấy đang chuẩn bị bài thuyết trình cho cuộc họp ngày mai."
+  }
+];
 
 // Part B — Sentence Builds (listen to shuffled word groups, arrange and say, 8 seconds)
-const BUILD_BANK = [];
+const BUILD_BANK = [
+{
+    "chunks": [
+      "Can you email me",
+      "the invoice",
+      "by Thursday?"
+    ],
+    "answer": "Can you email me the invoice by Thursday?",
+    "vi": "Bạn có thể gửi email hóa đơn cho tôi trước thứ Năm không?"
+  },
+  {
+    "chunks": [
+      "We should finish",
+      "this task",
+      "before the deadline."
+    ],
+    "answer": "We should finish this task before the deadline.",
+    "vi": "Chúng ta nên hoàn thành việc này trước hạn chót."
+  },
+  {
+    "chunks": [
+      "I usually walk",
+      "my dog",
+      "in the park."
+    ],
+    "answer": "I usually walk my dog in the park.",
+    "vi": "Tôi thường dắt chó đi dạo trong công viên."
+  },
+  {
+    "chunks": [
+      "She forgot to bring",
+      "her laptop",
+      "to work."
+    ],
+    "answer": "She forgot to bring her laptop to work.",
+    "vi": "Cô ấy quên mang laptop đi làm."
+  },
+  {
+    "chunks": [
+      "They are planning",
+      "to visit Japan",
+      "next spring."
+    ],
+    "answer": "They are planning to visit Japan next spring.",
+    "vi": "Họ đang lên kế hoạch đi Nhật Bản vào mùa xuân năm sau."
+  },
+  {
+    "chunks": [
+      "He needs to fix",
+      "the printer",
+      "before noon."
+    ],
+    "answer": "He needs to fix the printer before noon.",
+    "vi": "Anh ấy cần sửa máy in trước buổi trưa."
+  },
+  {
+    "chunks": [
+      "We booked a table",
+      "for four",
+      "at seven."
+    ],
+    "answer": "We booked a table for four at seven.",
+    "vi": "Chúng tôi đã đặt bàn cho bốn người lúc bảy giờ."
+  },
+  {
+    "chunks": [
+      "I have to pick up",
+      "my son",
+      "from soccer practice."
+    ],
+    "answer": "I have to pick up my son from soccer practice.",
+    "vi": "Tôi phải đón con trai sau buổi tập bóng đá."
+  },
+  {
+    "chunks": [
+      "Our manager will review",
+      "the budget",
+      "tomorrow."
+    ],
+    "answer": "Our manager will review the budget tomorrow.",
+    "vi": "Sếp của chúng tôi sẽ xem lại ngân sách vào ngày mai."
+  },
+  {
+    "chunks": [
+      "The company introduced",
+      "a new service",
+      "last year."
+    ],
+    "answer": "The company introduced a new service last year.",
+    "vi": "Công ty đã giới thiệu một dịch vụ mới vào năm ngoái."
+  },
+  {
+    "chunks": [
+      "Could you check",
+      "the attachment",
+      "in my email?"
+    ],
+    "answer": "Could you check the attachment in my email?",
+    "vi": "Bạn có thể kiểm tra tệp đính kèm trong email của tôi không?"
+  },
+  {
+    "chunks": [
+      "We need to order",
+      "more supplies",
+      "for the office."
+    ],
+    "answer": "We need to order more supplies for the office.",
+    "vi": "Chúng ta cần đặt thêm vật tư cho văn phòng."
+  },
+  {
+    "chunks": [
+      "She always arrives",
+      "ten minutes",
+      "before the meeting."
+    ],
+    "answer": "She always arrives ten minutes before the meeting.",
+    "vi": "Cô ấy luôn đến sớm mười phút trước cuộc họp."
+  },
+  {
+    "chunks": [
+      "I left my keys",
+      "on the kitchen",
+      "counter."
+    ],
+    "answer": "I left my keys on the kitchen counter.",
+    "vi": "Tôi để quên chìa khóa trên quầy bếp."
+  },
+  {
+    "chunks": [
+      "The kids are doing",
+      "homework",
+      "in the living room."
+    ],
+    "answer": "The kids are doing homework in the living room.",
+    "vi": "Bọn trẻ đang làm bài tập ở phòng khách."
+  },
+  {
+    "chunks": [
+      "He is fixing",
+      "the fence",
+      "in the backyard."
+    ],
+    "answer": "He is fixing the fence in the backyard.",
+    "vi": "Anh ấy đang sửa hàng rào ở sân sau."
+  },
+  {
+    "chunks": [
+      "We are hosting",
+      "a small party",
+      "this Saturday."
+    ],
+    "answer": "We are hosting a small party this Saturday.",
+    "vi": "Chúng tôi sẽ tổ chức một bữa tiệc nhỏ vào thứ Bảy này."
+  },
+  {
+    "chunks": [
+      "The teacher gave us",
+      "extra homework",
+      "yesterday."
+    ],
+    "answer": "The teacher gave us extra homework yesterday.",
+    "vi": "Hôm qua giáo viên giao thêm bài tập cho chúng tôi."
+  },
+  {
+    "chunks": [
+      "I should call",
+      "the bank",
+      "about my account."
+    ],
+    "answer": "I should call the bank about my account.",
+    "vi": "Tôi nên gọi cho ngân hàng về tài khoản của mình."
+  },
+  {
+    "chunks": [
+      "Our flight leaves",
+      "early",
+      "tomorrow morning."
+    ],
+    "answer": "Our flight leaves early tomorrow morning.",
+    "vi": "Chuyến bay của chúng tôi khởi hành sớm vào sáng mai."
+  },
+  {
+    "chunks": [
+      "She is studying",
+      "for her final exams",
+      "this week."
+    ],
+    "answer": "She is studying for her final exams this week.",
+    "vi": "Tuần này cô ấy đang ôn thi cuối kỳ."
+  },
+  {
+    "chunks": [
+      "The doctor recommended",
+      "more rest",
+      "and water."
+    ],
+    "answer": "The doctor recommended more rest and water.",
+    "vi": "Bác sĩ khuyên nên nghỉ ngơi nhiều hơn và uống nhiều nước."
+  },
+  {
+    "chunks": [
+      "We need to clean",
+      "the garage",
+      "this weekend."
+    ],
+    "answer": "We need to clean the garage this weekend.",
+    "vi": "Chúng ta cần dọn nhà để xe vào cuối tuần này."
+  },
+  {
+    "chunks": [
+      "He is learning",
+      "to cook",
+      "Italian food."
+    ],
+    "answer": "He is learning to cook Italian food.",
+    "vi": "Anh ấy đang học nấu món Ý."
+  },
+  {
+    "chunks": [
+      "The bookstore is having",
+      "a clearance sale",
+      "today."
+    ],
+    "answer": "The bookstore is having a clearance sale today.",
+    "vi": "Hiệu sách đang giảm giá xả hàng hôm nay."
+  },
+  {
+    "chunks": [
+      "I forgot my password",
+      "again",
+      "this morning."
+    ],
+    "answer": "I forgot my password again this morning.",
+    "vi": "Sáng nay tôi lại quên mật khẩu."
+  },
+  {
+    "chunks": [
+      "Our team completed",
+      "the report",
+      "under budget."
+    ],
+    "answer": "Our team completed the report under budget.",
+    "vi": "Nhóm chúng tôi đã hoàn thành báo cáo với chi phí thấp hơn dự kiến."
+  },
+  {
+    "chunks": [
+      "She is training",
+      "a new employee",
+      "this week."
+    ],
+    "answer": "She is training a new employee this week.",
+    "vi": "Tuần này cô ấy đang đào tạo một nhân viên mới."
+  },
+  {
+    "chunks": [
+      "We should back up",
+      "these files",
+      "before Friday."
+    ],
+    "answer": "We should back up these files before Friday.",
+    "vi": "Chúng ta nên sao lưu những tệp này trước thứ Sáu."
+  },
+  {
+    "chunks": [
+      "He drives to work",
+      "because",
+      "the bus is slow."
+    ],
+    "answer": "He drives to work because the bus is slow.",
+    "vi": "Anh ấy lái xe đi làm vì xe buýt chạy chậm."
+  },
+  {
+    "chunks": [
+      "The students are nervous",
+      "about",
+      "the final test."
+    ],
+    "answer": "The students are nervous about the final test.",
+    "vi": "Các học sinh đang lo lắng về bài kiểm tra cuối kỳ."
+  },
+  {
+    "chunks": [
+      "I need to renew",
+      "my gym membership",
+      "soon."
+    ],
+    "answer": "I need to renew my gym membership soon.",
+    "vi": "Tôi cần gia hạn thẻ tập gym sớm."
+  },
+  {
+    "chunks": [
+      "We are relocating",
+      "to a smaller office",
+      "downtown."
+    ],
+    "answer": "We are relocating to a smaller office downtown.",
+    "vi": "Chúng tôi sẽ chuyển đến một văn phòng nhỏ hơn ở trung tâm."
+  },
+  {
+    "chunks": [
+      "She usually cooks dinner",
+      "after she",
+      "gets home."
+    ],
+    "answer": "She usually cooks dinner after she gets home.",
+    "vi": "Cô ấy thường nấu bữa tối sau khi về đến nhà."
+  },
+  {
+    "chunks": [
+      "The client wants",
+      "to sign the contract",
+      "this week."
+    ],
+    "answer": "The client wants to sign the contract this week.",
+    "vi": "Khách hàng muốn ký hợp đồng trong tuần này."
+  },
+  {
+    "chunks": [
+      "I need to reply",
+      "to that message",
+      "right away."
+    ],
+    "answer": "I need to reply to that message right away.",
+    "vi": "Tôi cần trả lời tin nhắn đó ngay lập tức."
+  },
+  {
+    "chunks": [
+      "We are painting",
+      "the living room",
+      "this weekend."
+    ],
+    "answer": "We are painting the living room this weekend.",
+    "vi": "Chúng tôi sẽ sơn lại phòng khách vào cuối tuần này."
+  },
+  {
+    "chunks": [
+      "He missed the bus",
+      "and arrived late",
+      "for work."
+    ],
+    "answer": "He missed the bus and arrived late for work.",
+    "vi": "Anh ấy lỡ xe buýt nên đi làm muộn."
+  },
+  {
+    "chunks": [
+      "The company is hiring",
+      "two new interns",
+      "this summer."
+    ],
+    "answer": "The company is hiring two new interns this summer.",
+    "vi": "Công ty đang tuyển hai thực tập sinh mới trong hè này."
+  },
+  {
+    "chunks": [
+      "I want to upgrade",
+      "my phone",
+      "before the trip."
+    ],
+    "answer": "I want to upgrade my phone before the trip.",
+    "vi": "Tôi muốn nâng cấp điện thoại trước chuyến đi."
+  },
+  {
+    "chunks": [
+      "She is packing",
+      "her suitcase",
+      "for the business trip."
+    ],
+    "answer": "She is packing her suitcase for the business trip.",
+    "vi": "Cô ấy đang sắp xếp vali cho chuyến công tác."
+  },
+  {
+    "chunks": [
+      "We should water",
+      "the plants",
+      "before we leave."
+    ],
+    "answer": "We should water the plants before we leave.",
+    "vi": "Chúng ta nên tưới cây trước khi rời đi."
+  },
+  {
+    "chunks": [
+      "The neighbors are having",
+      "a barbecue",
+      "tonight."
+    ],
+    "answer": "The neighbors are having a barbecue tonight.",
+    "vi": "Tối nay hàng xóm sẽ tổ chức tiệc nướng."
+  },
+  {
+    "chunks": [
+      "He is repairing",
+      "his car",
+      "in the garage."
+    ],
+    "answer": "He is repairing his car in the garage.",
+    "vi": "Anh ấy đang sửa xe trong nhà để xe."
+  },
+  {
+    "chunks": [
+      "I need to drop off",
+      "this package",
+      "at the post office."
+    ],
+    "answer": "I need to drop off this package at the post office.",
+    "vi": "Tôi cần gửi bưu kiện này tại bưu điện."
+  },
+  {
+    "chunks": [
+      "Our department will move",
+      "to the third floor",
+      "next week."
+    ],
+    "answer": "Our department will move to the third floor next week.",
+    "vi": "Phòng ban của chúng tôi sẽ chuyển lên tầng ba vào tuần sau."
+  },
+  {
+    "chunks": [
+      "She is looking",
+      "for a new apartment",
+      "downtown."
+    ],
+    "answer": "She is looking for a new apartment downtown.",
+    "vi": "Cô ấy đang tìm một căn hộ mới ở trung tâm thành phố."
+  },
+  {
+    "chunks": [
+      "We need to sign in",
+      "before entering",
+      "the building."
+    ],
+    "answer": "We need to sign in before entering the building.",
+    "vi": "Chúng ta cần đăng ký trước khi vào tòa nhà."
+  },
+  {
+    "chunks": [
+      "I usually skip breakfast",
+      "when I'm",
+      "in a hurry."
+    ],
+    "answer": "I usually skip breakfast when I'm in a hurry.",
+    "vi": "Tôi thường bỏ bữa sáng khi vội."
+  },
+  {
+    "chunks": [
+      "The manager asked everyone",
+      "to arrive",
+      "on time."
+    ],
+    "answer": "The manager asked everyone to arrive on time.",
+    "vi": "Quản lý yêu cầu mọi người đến đúng giờ."
+  }
+];
 
 // Part C — Conversations (listen to a short dialogue, answer a follow-up question briefly)
-const CONV_BANK = [];
+const CONV_BANK = [
+{
+    "lines": [
+      "Speaker 1: Have you sent the updated budget file yet?",
+      "Speaker 2: Not yet, I'm still fixing a formula error.",
+      "Speaker 1: No rush, just send it before end of day."
+    ],
+    "question": "What is the woman still fixing?",
+    "answers": [
+      "a formula error",
+      "formula error"
+    ],
+    "vi": "Người phụ nữ đang sửa gì? → Một lỗi công thức"
+  },
+  {
+    "lines": [
+      "Speaker 1: Why is nobody at their desk right now?",
+      "Speaker 2: There's a fire drill happening on this floor.",
+      "Speaker 1: Right, I completely forgot about it."
+    ],
+    "question": "What is happening on this floor?",
+    "answers": [
+      "a fire drill",
+      "fire drill"
+    ],
+    "vi": "Tầng này đang diễn ra gì? → Diễn tập phòng cháy chữa cháy"
+  },
+  {
+    "lines": [
+      "Speaker 1: Do you know why the printer isn't working?",
+      "Speaker 2: It's out of toner again.",
+      "Speaker 1: I'll order a new one this afternoon."
+    ],
+    "question": "What is wrong with the printer?",
+    "answers": [
+      "it's out of toner",
+      "out of toner"
+    ],
+    "vi": "Máy in bị làm sao? → Hết mực"
+  },
+  {
+    "lines": [
+      "Speaker 1: Could we move our call to half past two?",
+      "Speaker 2: That should be fine on my end.",
+      "Speaker 1: Great, I'll update the invite now."
+    ],
+    "question": "What time do they agree on for the call?",
+    "answers": [
+      "half past two",
+      "two thirty"
+    ],
+    "vi": "Họ thống nhất cuộc gọi lúc mấy giờ? → Hai giờ rưỡi"
+  },
+  {
+    "lines": [
+      "Speaker 1: How was your weekend?",
+      "Speaker 2: Quiet. I mostly cleaned the house.",
+      "Speaker 1: That sounds productive at least."
+    ],
+    "question": "What did the woman mostly do on the weekend?",
+    "answers": [
+      "cleaned the house",
+      "clean the house"
+    ],
+    "vi": "Cuối tuần người phụ nữ chủ yếu làm gì? → Dọn dẹp nhà cửa"
+  },
+  {
+    "lines": [
+      "Speaker 1: Is the meeting room free right now?",
+      "Speaker 2: No, the marketing team is using it until noon.",
+      "Speaker 1: Okay, we'll find another room."
+    ],
+    "question": "Who is using the meeting room?",
+    "answers": [
+      "the marketing team",
+      "marketing team"
+    ],
+    "vi": "Ai đang dùng phòng họp? → Nhóm marketing"
+  },
+  {
+    "lines": [
+      "Speaker 1: Has the courier come by yet today?",
+      "Speaker 2: Yes, he dropped off two boxes this morning.",
+      "Speaker 1: Great, I'll bring them up to the office."
+    ],
+    "question": "How many boxes did the courier drop off?",
+    "answers": [
+      "two boxes",
+      "two"
+    ],
+    "vi": "Người giao hàng đã để lại bao nhiêu thùng? → Hai thùng"
+  },
+  {
+    "lines": [
+      "Speaker 1: My bike had a flat tire this morning.",
+      "Speaker 2: That's annoying. How did you get here then?",
+      "Speaker 1: I borrowed my roommate's scooter."
+    ],
+    "question": "How did the man get to work?",
+    "answers": [
+      "he borrowed a scooter",
+      "by scooter"
+    ],
+    "vi": "Người đàn ông đến chỗ làm bằng cách nào? → Mượn xe máy của bạn cùng phòng"
+  },
+  {
+    "lines": [
+      "Speaker 1: The kids keep asking when dinner will be ready.",
+      "Speaker 2: Just tell them fifteen more minutes.",
+      "Speaker 1: Alright, I'll go tell them now."
+    ],
+    "question": "How many more minutes until dinner is ready?",
+    "answers": [
+      "fifteen minutes",
+      "fifteen"
+    ],
+    "vi": "Còn bao nhiêu phút nữa thì bữa tối xong? → Mười lăm phút nữa"
+  },
+  {
+    "lines": [
+      "Speaker 1: Have you booked the flights for the conference?",
+      "Speaker 2: Not yet, the prices are still very high.",
+      "Speaker 1: Let's check again tomorrow morning."
+    ],
+    "question": "Why hasn't the man booked the flights yet?",
+    "answers": [
+      "the prices are too high",
+      "because prices are high"
+    ],
+    "vi": "Vì sao người đàn ông chưa đặt vé máy bay? → Vì giá vé vẫn còn quá cao"
+  },
+  {
+    "lines": [
+      "Speaker 1: Did you feed the cat before we left?",
+      "Speaker 2: No, I completely forgot about it.",
+      "Speaker 1: I'll call our neighbor to check on her."
+    ],
+    "question": "What did the woman forget to do?",
+    "answers": [
+      "feed the cat",
+      "feeding the cat"
+    ],
+    "vi": "Người phụ nữ quên làm gì? → Cho mèo ăn"
+  },
+  {
+    "lines": [
+      "Speaker 1: The client needs the proposal by Thursday morning.",
+      "Speaker 2: That's a short timeline, but it's doable.",
+      "Speaker 1: Let's divide the sections tonight then."
+    ],
+    "question": "When does the client need the proposal?",
+    "answers": [
+      "by Thursday morning",
+      "Thursday morning"
+    ],
+    "vi": "Khách hàng cần nhận đề xuất khi nào? → Sáng thứ Năm"
+  },
+  {
+    "lines": [
+      "Speaker 1: I think I left my scarf on the bus.",
+      "Speaker 2: I can call the bus company for you.",
+      "Speaker 1: That would really help, thank you."
+    ],
+    "question": "What did the man leave on the bus?",
+    "answers": [
+      "his scarf",
+      "scarf"
+    ],
+    "vi": "Người đàn ông để quên gì trên xe buýt? → Chiếc khăn quàng của anh ấy"
+  },
+  {
+    "lines": [
+      "Speaker 1: The Wi-Fi keeps disconnecting during my calls.",
+      "Speaker 2: IT is already fixing the router upstairs.",
+      "Speaker 1: Good, I have another call in ten minutes."
+    ],
+    "question": "What is IT currently fixing?",
+    "answers": [
+      "the router",
+      "router"
+    ],
+    "vi": "Bộ phận IT đang sửa gì? → Bộ định tuyến (router)"
+  },
+  {
+    "lines": [
+      "Speaker 1: Are you going to the gym after work?",
+      "Speaker 2: Not today, I have a dentist appointment.",
+      "Speaker 1: Okay, maybe tomorrow then."
+    ],
+    "question": "What does the woman have after work today?",
+    "answers": [
+      "a dentist appointment",
+      "dentist appointment"
+    ],
+    "vi": "Người phụ nữ có gì sau giờ làm hôm nay? → Cuộc hẹn nha sĩ"
+  },
+  {
+    "lines": [
+      "Speaker 1: This shipping charge on the invoice seems too high.",
+      "Speaker 2: I'll compare it with last month's bill.",
+      "Speaker 1: Good, please flag anything unusual."
+    ],
+    "question": "What will the woman compare the invoice with?",
+    "answers": [
+      "last month's bill",
+      "last month's invoice"
+    ],
+    "vi": "Người phụ nữ sẽ so sánh hóa đơn với gì? → Hóa đơn tháng trước"
+  },
+  {
+    "lines": [
+      "Speaker 1: How's your new apartment working out?",
+      "Speaker 2: It's great, but the kitchen is quite small.",
+      "Speaker 1: At least the location sounds convenient."
+    ],
+    "question": "What problem does the woman mention about her apartment?",
+    "answers": [
+      "the kitchen is small",
+      "small kitchen"
+    ],
+    "vi": "Người phụ nữ nhắc đến vấn đề gì về căn hộ? → Nhà bếp khá nhỏ"
+  },
+  {
+    "lines": [
+      "Speaker 1: Did you find a doctor for your checkup?",
+      "Speaker 2: Yes, I have an appointment next Monday.",
+      "Speaker 1: Good, let me know how it goes."
+    ],
+    "question": "When is the woman's checkup appointment?",
+    "answers": [
+      "next Monday",
+      "Monday"
+    ],
+    "vi": "Cuộc hẹn khám của người phụ nữ vào khi nào? → Thứ Hai tuần sau"
+  },
+  {
+    "lines": [
+      "Speaker 1: The elevator has been out for two days now.",
+      "Speaker 2: I know, we've been using the stairs.",
+      "Speaker 1: That's a lot of stairs for the tenth floor."
+    ],
+    "question": "How have people been getting upstairs?",
+    "answers": [
+      "using the stairs",
+      "by the stairs"
+    ],
+    "vi": "Mọi người đang lên tầng bằng cách nào? → Đi cầu thang bộ"
+  },
+  {
+    "lines": [
+      "Speaker 1: Our supplier raised their prices again.",
+      "Speaker 2: By how much this time?",
+      "Speaker 1: About ten percent, unfortunately."
+    ],
+    "question": "By how much did the supplier raise their prices?",
+    "answers": [
+      "about ten percent",
+      "ten percent"
+    ],
+    "vi": "Nhà cung cấp tăng giá bao nhiêu? → Khoảng mười phần trăm"
+  },
+  {
+    "lines": [
+      "Speaker 1: Could you grab some eggs from the store?",
+      "Speaker 2: No problem, is that everything?",
+      "Speaker 1: A bag of rice would be great too."
+    ],
+    "question": "What does the woman ask the man to buy first?",
+    "answers": [
+      "eggs"
+    ],
+    "vi": "Người phụ nữ nhờ mua gì trước tiên? → Trứng"
+  },
+  {
+    "lines": [
+      "Speaker 1: The new hire starts training next week.",
+      "Speaker 2: Who will be showing her around?",
+      "Speaker 1: I'll handle the first two days."
+    ],
+    "question": "Who will train the new hire for the first two days?",
+    "answers": [
+      "the speaker",
+      "him",
+      "he will"
+    ],
+    "vi": "Ai sẽ hướng dẫn nhân viên mới trong hai ngày đầu? → Người nói (anh ấy)"
+  },
+  {
+    "lines": [
+      "Speaker 1: Did you check out that new bakery near the park?",
+      "Speaker 2: Not yet, but a friend said the bread sells out fast.",
+      "Speaker 1: Then we should go early next time."
+    ],
+    "question": "What did the woman's friend say about the bakery?",
+    "answers": [
+      "the bread sells out fast",
+      "bread sells out fast"
+    ],
+    "vi": "Bạn của người phụ nữ nói gì về tiệm bánh? → Bánh mì bán hết rất nhanh"
+  },
+  {
+    "lines": [
+      "Speaker 1: My internet has been down since morning.",
+      "Speaker 2: You can use the guest Wi-Fi in the meantime.",
+      "Speaker 1: Thanks, I'll connect to that now."
+    ],
+    "question": "What can the man use while his internet is down?",
+    "answers": [
+      "the guest Wi-Fi",
+      "guest wifi"
+    ],
+    "vi": "Người đàn ông có thể dùng gì tạm thời? → Wi-Fi khách"
+  },
+  {
+    "lines": [
+      "Speaker 1: The report has too many typos.",
+      "Speaker 2: Sorry, I'll fix them before lunch.",
+      "Speaker 1: Thanks, just send it back when it's ready."
+    ],
+    "question": "What is wrong with the report?",
+    "answers": [
+      "it has too many typos",
+      "typos"
+    ],
+    "vi": "Báo cáo bị lỗi gì? → Có quá nhiều lỗi đánh máy"
+  },
+  {
+    "lines": [
+      "Speaker 1: Are we still on for lunch today?",
+      "Speaker 2: Actually, can we move it to one o'clock?",
+      "Speaker 1: Sure, one works fine for me."
+    ],
+    "question": "What time do they agree to have lunch?",
+    "answers": [
+      "one o'clock",
+      "one"
+    ],
+    "vi": "Họ đồng ý ăn trưa lúc mấy giờ? → Một giờ"
+  },
+  {
+    "lines": [
+      "Speaker 1: The dishwasher is leaking water onto the floor.",
+      "Speaker 2: I think a hose came loose again.",
+      "Speaker 1: I'll turn it off and check underneath."
+    ],
+    "question": "What does the man think is causing the leak?",
+    "answers": [
+      "a loose hose",
+      "hose came loose"
+    ],
+    "vi": "Người đàn ông nghĩ nguyên nhân rò rỉ là gì? → Một ống nước bị lỏng"
+  },
+  {
+    "lines": [
+      "Speaker 1: Did the shipment arrive on time this week?",
+      "Speaker 2: No, it's delayed by two days.",
+      "Speaker 1: We should tell the customers right away."
+    ],
+    "question": "How long is the shipment delayed?",
+    "answers": [
+      "two days"
+    ],
+    "vi": "Lô hàng bị trễ bao lâu? → Hai ngày"
+  },
+  {
+    "lines": [
+      "Speaker 1: My throat has been sore since yesterday.",
+      "Speaker 2: You should drink warm tea and rest your voice.",
+      "Speaker 1: Good idea, I'll make some now."
+    ],
+    "question": "What does the woman suggest the man do?",
+    "answers": [
+      "drink warm tea and rest his voice",
+      "drink tea"
+    ],
+    "vi": "Người phụ nữ đề nghị người đàn ông làm gì? → Uống trà ấm và để giọng nghỉ ngơi"
+  },
+  {
+    "lines": [
+      "Speaker 1: Could you cover my shift next Tuesday?",
+      "Speaker 2: Sure, but I'll need Thursday off instead.",
+      "Speaker 1: Deal, I'll update the schedule."
+    ],
+    "question": "What does the woman want in exchange?",
+    "answers": [
+      "Thursday off",
+      "to have Thursday off"
+    ],
+    "vi": "Người phụ nữ muốn đổi lại điều gì? → Được nghỉ thứ Năm"
+  },
+  {
+    "lines": [
+      "Speaker 1: How was the training session yesterday?",
+      "Speaker 2: Useful, but it ran longer than expected.",
+      "Speaker 1: How much longer?"
+    ],
+    "question": "What did the woman say about the training session?",
+    "answers": [
+      "it ran longer than expected",
+      "it was long"
+    ],
+    "vi": "Người phụ nữ nói gì về buổi đào tạo? → Kéo dài hơn dự kiến"
+  },
+  {
+    "lines": [
+      "Speaker 1: Is the parking lot full already?",
+      "Speaker 2: Yes, you'll need to park on the street.",
+      "Speaker 1: Okay, I'll leave a bit earlier next time."
+    ],
+    "question": "Where does the man need to park?",
+    "answers": [
+      "on the street"
+    ],
+    "vi": "Người đàn ông cần đậu xe ở đâu? → Trên đường phố"
+  },
+  {
+    "lines": [
+      "Speaker 1: The kids keep asking for a fish tank.",
+      "Speaker 2: Maybe we can get one after we move.",
+      "Speaker 1: That sounds like a fair compromise."
+    ],
+    "question": "When will they think about getting a fish tank?",
+    "answers": [
+      "after they move",
+      "after the move"
+    ],
+    "vi": "Khi nào họ sẽ cân nhắc mua bể cá? → Sau khi chuyển nhà"
+  },
+  {
+    "lines": [
+      "Speaker 1: The oven isn't heating up properly.",
+      "Speaker 2: We should call a repair technician.",
+      "Speaker 1: I'll look for one this afternoon."
+    ],
+    "question": "What is wrong with the oven?",
+    "answers": [
+      "it isn't heating up properly",
+      "not heating properly"
+    ],
+    "vi": "Lò nướng bị gì? → Không nóng đúng cách"
+  },
+  {
+    "lines": [
+      "Speaker 1: Our budget for next quarter was approved.",
+      "Speaker 2: That's great news, when can we start hiring?",
+      "Speaker 1: Probably by the end of the month."
+    ],
+    "question": "When can they probably start hiring?",
+    "answers": [
+      "by the end of the month",
+      "end of the month"
+    ],
+    "vi": "Khi nào họ có thể bắt đầu tuyển dụng? → Vào cuối tháng"
+  },
+  {
+    "lines": [
+      "Speaker 1: I can't find my badge to enter the office.",
+      "Speaker 2: Check with security, they can issue a temporary one.",
+      "Speaker 1: Good idea, I'll go there now."
+    ],
+    "question": "What can security issue the man?",
+    "answers": [
+      "a temporary badge",
+      "temporary one"
+    ],
+    "vi": "Bộ phận bảo vệ có thể cấp gì cho anh ấy? → Thẻ tạm thời"
+  },
+  {
+    "lines": [
+      "Speaker 1: The soup needs a bit more salt.",
+      "Speaker 2: I'll add some, thanks for tasting it.",
+      "Speaker 1: No problem, it smells great already."
+    ],
+    "question": "What does the soup need?",
+    "answers": [
+      "more salt",
+      "salt"
+    ],
+    "vi": "Món súp cần thêm gì? → Thêm chút muối"
+  },
+  {
+    "lines": [
+      "Speaker 1: Any plans yet for the long weekend?",
+      "Speaker 2: We're considering a trip to the coast.",
+      "Speaker 1: That sounds nice, especially in this heat."
+    ],
+    "question": "Where are they considering going for the long weekend?",
+    "answers": [
+      "the coast"
+    ],
+    "vi": "Họ đang cân nhắc đi đâu vào kỳ nghỉ dài? → Vùng biển"
+  },
+  {
+    "lines": [
+      "Speaker 1: My microphone isn't picking up any sound.",
+      "Speaker 2: Try unplugging it and plugging it back in.",
+      "Speaker 1: That worked, thanks for the tip."
+    ],
+    "question": "What does the woman suggest trying?",
+    "answers": [
+      "unplugging and plugging it back in",
+      "unplug and replug it"
+    ],
+    "vi": "Người phụ nữ gợi ý thử làm gì? → Rút ra rồi cắm lại"
+  },
+  {
+    "lines": [
+      "Speaker 1: I'm considering getting a second monitor.",
+      "Speaker 2: A few people on our team already use two.",
+      "Speaker 1: I'll ask IT if it's possible."
+    ],
+    "question": "What is the man considering getting?",
+    "answers": [
+      "a second monitor"
+    ],
+    "vi": "Người đàn ông đang cân nhắc mua gì? → Một màn hình thứ hai"
+  },
+  {
+    "lines": [
+      "Speaker 1: Our building fees went up again this quarter.",
+      "Speaker 2: How much did it go up?",
+      "Speaker 1: About eight percent, according to the notice."
+    ],
+    "question": "By how much did the building fees increase?",
+    "answers": [
+      "about eight percent",
+      "eight percent"
+    ],
+    "vi": "Phí quản lý tòa nhà tăng bao nhiêu? → Khoảng tám phần trăm"
+  },
+  {
+    "lines": [
+      "Speaker 1: Could you review these meeting notes before I share them?",
+      "Speaker 2: Of course, send them over now.",
+      "Speaker 1: Thanks, that's really helpful."
+    ],
+    "question": "What does the man ask the woman to do?",
+    "answers": [
+      "review the meeting notes",
+      "check the notes"
+    ],
+    "vi": "Người đàn ông nhờ người phụ nữ làm gì? → Xem lại biên bản cuộc họp"
+  },
+  {
+    "lines": [
+      "Speaker 1: The bus schedule changed starting this week.",
+      "Speaker 2: Really? What time does it come now?",
+      "Speaker 1: Ten minutes later than before."
+    ],
+    "question": "How has the bus schedule changed?",
+    "answers": [
+      "it comes ten minutes later",
+      "ten minutes later"
+    ],
+    "vi": "Lịch xe buýt thay đổi thế nào? → Đến trễ hơn mười phút so với trước"
+  },
+  {
+    "lines": [
+      "Speaker 1: We're almost out of printer paper.",
+      "Speaker 2: I'll order a new box this afternoon.",
+      "Speaker 1: Thanks, we have a big print job tomorrow."
+    ],
+    "question": "What is the woman almost out of?",
+    "answers": [
+      "printer paper",
+      "paper"
+    ],
+    "vi": "Người phụ nữ sắp hết gì? → Giấy in"
+  },
+  {
+    "lines": [
+      "Speaker 1: My son has a soccer game this Saturday.",
+      "Speaker 2: Are you coaching again this season?",
+      "Speaker 1: Yes, it keeps me quite busy."
+    ],
+    "question": "What does the man do this season?",
+    "answers": [
+      "he coaches",
+      "coaching"
+    ],
+    "vi": "Người đàn ông làm gì trong mùa này? → Huấn luyện (đội bóng)"
+  },
+  {
+    "lines": [
+      "Speaker 1: When does the annual report need to be finished?",
+      "Speaker 2: By the fifteenth, according to the manager.",
+      "Speaker 1: Okay, we still have plenty of time then."
+    ],
+    "question": "When does the annual report need to be finished?",
+    "answers": [
+      "by the fifteenth",
+      "the fifteenth"
+    ],
+    "vi": "Báo cáo hàng năm cần hoàn thành khi nào? → Trước ngày mười lăm"
+  },
+  {
+    "lines": [
+      "Speaker 1: The air conditioner in my room stopped working.",
+      "Speaker 2: Did you already tell the building manager?",
+      "Speaker 1: Yes, someone is coming this evening."
+    ],
+    "question": "When is someone coming to fix the air conditioner?",
+    "answers": [
+      "this evening",
+      "tonight"
+    ],
+    "vi": "Khi nào sẽ có người đến sửa máy lạnh? → Tối nay"
+  },
+  {
+    "lines": [
+      "Speaker 1: I heard you got a new manager last month.",
+      "Speaker 2: Yes, she's very organized and clear.",
+      "Speaker 1: That must be a nice change."
+    ],
+    "question": "How does the woman describe her new manager?",
+    "answers": [
+      "organized and clear",
+      "very organized"
+    ],
+    "vi": "Người phụ nữ mô tả sếp mới thế nào? → Rất ngăn nắp và rõ ràng"
+  },
+  {
+    "lines": [
+      "Speaker 1: Should we take the highway or the back roads?",
+      "Speaker 2: The highway has construction right now.",
+      "Speaker 1: Let's take the back roads then."
+    ],
+    "question": "What is happening on the highway?",
+    "answers": [
+      "construction",
+      "there is construction"
+    ],
+    "vi": "Trên đường cao tốc đang có gì? → Đang thi công"
+  },
+  {
+    "lines": [
+      "Speaker 1: Did you see my note about the new meeting room?",
+      "Speaker 2: Yes, I read it right before lunch.",
+      "Speaker 1: Good, just wanted to confirm."
+    ],
+    "question": "When did the woman read the man's note?",
+    "answers": [
+      "right before lunch",
+      "before lunch"
+    ],
+    "vi": "Người phụ nữ đọc ghi chú của anh ấy khi nào? → Ngay trước giờ ăn trưa"
+  }
+];
 
 // Part D — Sentence Completion (type one word, 25 seconds)
-const COMPLETION_BANK = [];
+const COMPLETION_BANK = [
+{
+    "blankTpl": "I forgot my keys, so I had to ___ my roommate to let me in.",
+    "answers": [
+      "call",
+      "text",
+      "phone"
+    ],
+    "vi": "Tôi quên chìa khóa nên phải gọi bạn cùng phòng để mở cửa cho vào."
+  },
+  {
+    "blankTpl": "The music is too loud; could you please ___ it a little?",
+    "answers": [
+      "lower",
+      "turn down"
+    ],
+    "vi": "Nhạc to quá; bạn có thể vặn nhỏ lại một chút không?"
+  },
+  {
+    "blankTpl": "Our trip to the lake was ___ because of the storm.",
+    "answers": [
+      "cancelled",
+      "canceled",
+      "postponed"
+    ],
+    "vi": "Chuyến đi hồ của chúng tôi bị hủy vì cơn bão."
+  },
+  {
+    "blankTpl": "She is very ___ about her new job; she starts on Monday.",
+    "answers": [
+      "excited",
+      "nervous"
+    ],
+    "vi": "Cô ấy rất háo hức về công việc mới; cô ấy bắt đầu vào thứ Hai."
+  },
+  {
+    "blankTpl": "Please ___ the form before submitting it.",
+    "answers": [
+      "sign",
+      "complete",
+      "fill out"
+    ],
+    "vi": "Vui lòng ký vào biểu mẫu trước khi nộp."
+  },
+  {
+    "blankTpl": "The soup tastes a bit ___; can you add more salt?",
+    "answers": [
+      "bland"
+    ],
+    "vi": "Món súp có vị hơi nhạt; bạn có thể thêm chút muối không?"
+  },
+  {
+    "blankTpl": "We need to ___ the meeting because the manager is out sick.",
+    "answers": [
+      "postpone",
+      "reschedule",
+      "cancel"
+    ],
+    "vi": "Chúng ta cần hoãn cuộc họp vì quản lý bị ốm."
+  },
+  {
+    "blankTpl": "He was ___ for the interview because of heavy traffic.",
+    "answers": [
+      "late"
+    ],
+    "vi": "Anh ấy đến trễ buổi phỏng vấn vì kẹt xe."
+  },
+  {
+    "blankTpl": "The store ___ a discount on all winter clothes.",
+    "answers": [
+      "offers",
+      "is offering"
+    ],
+    "vi": "Cửa hàng đang giảm giá tất cả quần áo mùa đông."
+  },
+  {
+    "blankTpl": "I need to ___ my laptop before the meeting starts.",
+    "answers": [
+      "charge"
+    ],
+    "vi": "Tôi cần sạc laptop trước khi cuộc họp bắt đầu."
+  },
+  {
+    "blankTpl": "The company plans to ___ its offices to a bigger building.",
+    "answers": [
+      "move",
+      "relocate"
+    ],
+    "vi": "Công ty dự định chuyển văn phòng sang tòa nhà lớn hơn."
+  },
+  {
+    "blankTpl": "She drank coffee too late and couldn't ___ at night.",
+    "answers": [
+      "sleep",
+      "fall asleep"
+    ],
+    "vi": "Cô ấy uống cà phê quá muộn nên không thể ngủ được vào ban đêm."
+  },
+  {
+    "blankTpl": "Could you ___ me a hand moving these boxes?",
+    "answers": [
+      "give",
+      "lend"
+    ],
+    "vi": "Bạn có thể giúp tôi một tay khiêng mấy thùng này không?"
+  },
+  {
+    "blankTpl": "The manager asked us to ___ our reports by Friday.",
+    "answers": [
+      "submit",
+      "turn in",
+      "hand in"
+    ],
+    "vi": "Quản lý yêu cầu chúng tôi nộp báo cáo trước thứ Sáu."
+  },
+  {
+    "blankTpl": "It's freezing outside, so wear a ___ coat.",
+    "answers": [
+      "warm",
+      "heavy"
+    ],
+    "vi": "Ngoài trời lạnh cóng, hãy mặc áo khoác ấm vào."
+  },
+  {
+    "blankTpl": "I need to ___ an appointment with the hairdresser.",
+    "answers": [
+      "make",
+      "schedule",
+      "book"
+    ],
+    "vi": "Tôi cần đặt lịch hẹn với thợ làm tóc."
+  },
+  {
+    "blankTpl": "The printer is out of ___, so nothing is printing.",
+    "answers": [
+      "ink",
+      "toner",
+      "paper"
+    ],
+    "vi": "Máy in hết mực nên không in được gì cả."
+  },
+  {
+    "blankTpl": "She ___ her umbrella at the office and got wet on the way home.",
+    "answers": [
+      "left",
+      "forgot"
+    ],
+    "vi": "Cô ấy để quên ô ở văn phòng nên bị ướt trên đường về nhà."
+  },
+  {
+    "blankTpl": "We should ___ the budget before we approve the new project.",
+    "answers": [
+      "review",
+      "check"
+    ],
+    "vi": "Chúng ta nên xem lại ngân sách trước khi phê duyệt dự án mới."
+  },
+  {
+    "blankTpl": "The kids were ___ when they heard about the trip to the zoo.",
+    "answers": [
+      "thrilled",
+      "excited"
+    ],
+    "vi": "Bọn trẻ rất phấn khích khi nghe tin về chuyến đi sở thú."
+  },
+  {
+    "blankTpl": "Please ___ your seatbelt while the car is moving.",
+    "answers": [
+      "fasten",
+      "wear"
+    ],
+    "vi": "Vui lòng thắt dây an toàn khi xe đang chạy."
+  },
+  {
+    "blankTpl": "He's saving money to ___ a new car next year.",
+    "answers": [
+      "buy",
+      "purchase"
+    ],
+    "vi": "Anh ấy đang tiết kiệm tiền để mua xe mới vào năm sau."
+  },
+  {
+    "blankTpl": "The internet connection is very ___ today.",
+    "answers": [
+      "slow",
+      "unstable"
+    ],
+    "vi": "Kết nối internet hôm nay rất chậm."
+  },
+  {
+    "blankTpl": "Could you ___ the door? It's a bit cold in here.",
+    "answers": [
+      "close",
+      "shut"
+    ],
+    "vi": "Bạn có thể đóng cửa lại được không? Ở đây hơi lạnh."
+  },
+  {
+    "blankTpl": "I ___ through my alarm this morning, so I woke up late.",
+    "answers": [
+      "slept"
+    ],
+    "vi": "Sáng nay tôi ngủ quên không nghe thấy chuông báo thức nên dậy muộn."
+  },
+  {
+    "blankTpl": "The client was not ___ with the delay in delivery.",
+    "answers": [
+      "happy",
+      "satisfied",
+      "pleased"
+    ],
+    "vi": "Khách hàng không hài lòng với việc giao hàng bị trễ."
+  },
+  {
+    "blankTpl": "We need to ___ more staff before the holiday season.",
+    "answers": [
+      "hire"
+    ],
+    "vi": "Chúng ta cần tuyển thêm nhân viên trước mùa lễ hội."
+  },
+  {
+    "blankTpl": "She ___ up early every day to exercise before work.",
+    "answers": [
+      "gets",
+      "wakes"
+    ],
+    "vi": "Cô ấy dậy sớm mỗi ngày để tập thể dục trước khi đi làm."
+  },
+  {
+    "blankTpl": "The washing machine ___ down again this morning.",
+    "answers": [
+      "broke"
+    ],
+    "vi": "Máy giặt lại bị hỏng sáng nay."
+  },
+  {
+    "blankTpl": "Could you ___ me the salt, please?",
+    "answers": [
+      "pass",
+      "hand"
+    ],
+    "vi": "Bạn có thể đưa giúp tôi lọ muối không?"
+  },
+  {
+    "blankTpl": "He ___ his job last month and is now looking for a new one.",
+    "answers": [
+      "lost",
+      "quit"
+    ],
+    "vi": "Anh ấy mất việc vào tháng trước và hiện đang tìm việc mới."
+  },
+  {
+    "blankTpl": "The train station is ___ from here; you can walk there in ten minutes.",
+    "answers": [
+      "close",
+      "near",
+      "nearby"
+    ],
+    "vi": "Ga tàu ở gần đây; bạn có thể đi bộ đến trong mười phút."
+  },
+  {
+    "blankTpl": "We are ___ to hearing back from the client soon.",
+    "answers": [
+      "looking forward"
+    ],
+    "vi": "Chúng tôi mong sớm nhận được phản hồi từ khách hàng."
+  },
+  {
+    "blankTpl": "Please ___ down your name and phone number at the front desk.",
+    "answers": [
+      "write",
+      "note"
+    ],
+    "vi": "Vui lòng ghi tên và số điện thoại của bạn tại quầy lễ tân."
+  },
+  {
+    "blankTpl": "The report ___ several mistakes that need to be corrected.",
+    "answers": [
+      "contains",
+      "has"
+    ],
+    "vi": "Báo cáo có một vài lỗi cần được sửa lại."
+  },
+  {
+    "blankTpl": "I ___ my wallet somewhere between the office and the parking lot.",
+    "answers": [
+      "lost",
+      "dropped"
+    ],
+    "vi": "Tôi làm mất ví ở đâu đó giữa văn phòng và bãi đậu xe."
+  },
+  {
+    "blankTpl": "He was ___ to hear that the trip was cancelled.",
+    "answers": [
+      "disappointed",
+      "upset"
+    ],
+    "vi": "Anh ấy thất vọng khi nghe tin chuyến đi bị hủy."
+  },
+  {
+    "blankTpl": "Please ___ your badge when you enter the building.",
+    "answers": [
+      "scan",
+      "show"
+    ],
+    "vi": "Vui lòng quét thẻ khi bạn vào tòa nhà."
+  },
+  {
+    "blankTpl": "The weather forecast says it will ___ tomorrow afternoon.",
+    "answers": [
+      "rain"
+    ],
+    "vi": "Dự báo thời tiết cho biết trời sẽ mưa vào chiều mai."
+  },
+  {
+    "blankTpl": "He ___ his coffee on the new carpet by accident.",
+    "answers": [
+      "spilled"
+    ],
+    "vi": "Anh ấy vô tình làm đổ cà phê lên tấm thảm mới."
+  },
+  {
+    "blankTpl": "We need to ___ the agreement twice before sending it back.",
+    "answers": [
+      "read",
+      "check",
+      "review"
+    ],
+    "vi": "Chúng ta cần đọc lại thỏa thuận hai lần trước khi gửi lại."
+  },
+  {
+    "blankTpl": "The cafe ___ fresh pastries every weekend.",
+    "answers": [
+      "bakes",
+      "makes",
+      "sells"
+    ],
+    "vi": "Quán cà phê làm bánh ngọt tươi vào mỗi cuối tuần."
+  },
+  {
+    "blankTpl": "I need to ___ my resignation letter to my manager tomorrow.",
+    "answers": [
+      "submit",
+      "hand in",
+      "give"
+    ],
+    "vi": "Ngày mai tôi cần nộp đơn xin nghỉ việc cho quản lý."
+  },
+  {
+    "blankTpl": "She ___ the wrong bus and ended up downtown instead.",
+    "answers": [
+      "took",
+      "caught"
+    ],
+    "vi": "Cô ấy đón nhầm xe buýt nên lại đến trung tâm thành phố."
+  },
+  {
+    "blankTpl": "Please make sure to ___ the lights when you leave the room.",
+    "answers": [
+      "turn off",
+      "switch off"
+    ],
+    "vi": "Hãy nhớ tắt đèn khi bạn rời khỏi phòng."
+  },
+  {
+    "blankTpl": "The company is ___ its prices due to rising costs.",
+    "answers": [
+      "raising",
+      "increasing"
+    ],
+    "vi": "Công ty đang tăng giá do chi phí tăng cao."
+  },
+  {
+    "blankTpl": "He ___ the wrong file to the client by mistake.",
+    "answers": [
+      "sent"
+    ],
+    "vi": "Anh ấy đã gửi nhầm tệp cho khách hàng."
+  },
+  {
+    "blankTpl": "I need to ___ some cash before the weekend trip.",
+    "answers": [
+      "withdraw",
+      "get",
+      "take out"
+    ],
+    "vi": "Tôi cần rút ít tiền mặt trước chuyến đi cuối tuần."
+  },
+  {
+    "blankTpl": "The living room needs to be ___ before the guests arrive.",
+    "answers": [
+      "cleaned",
+      "tidied",
+      "vacuumed"
+    ],
+    "vi": "Phòng khách cần được dọn dẹp trước khi khách đến."
+  },
+  {
+    "blankTpl": "She ___ her phone number down so I wouldn't forget it.",
+    "answers": [
+      "wrote"
+    ],
+    "vi": "Cô ấy viết số điện thoại của mình ra để tôi khỏi quên."
+  }
+];
 
 // Part E — Dictation (type exactly what you hear, 25 seconds)
-const DICTATION_BANK = [];
+const DICTATION_BANK = [
+{
+    "en": "The manager sent an email asking everyone to join the call early.",
+    "vi": "Quản lý đã gửi email yêu cầu mọi người tham gia cuộc gọi sớm."
+  },
+  {
+    "en": "My grandmother spends most of her afternoons working in the garden.",
+    "vi": "Bà tôi dành phần lớn buổi chiều để làm việc trong vườn."
+  },
+  {
+    "en": "We waited nearly forty minutes for a table at the cafe.",
+    "vi": "Chúng tôi đợi gần bốn mươi phút mới có bàn ở quán cà phê."
+  },
+  {
+    "en": "The company decided to extend the deadline for the annual report.",
+    "vi": "Công ty quyết định gia hạn thời hạn nộp báo cáo hàng năm."
+  },
+  {
+    "en": "He usually takes the stairs instead of waiting for the elevator.",
+    "vi": "Anh ấy thường đi cầu thang bộ thay vì chờ thang máy."
+  },
+  {
+    "en": "The children spent the whole afternoon building a sandcastle at the beach.",
+    "vi": "Bọn trẻ dành cả buổi chiều để xây lâu đài cát trên bãi biển."
+  },
+  {
+    "en": "Our supervisor asked us to double check the figures before the presentation.",
+    "vi": "Người giám sát yêu cầu chúng tôi kiểm tra lại các con số trước buổi thuyết trình."
+  },
+  {
+    "en": "The bakery on the corner sells out of croissants by nine most mornings.",
+    "vi": "Tiệm bánh ở góc phố thường bán hết bánh sừng bò trước chín giờ sáng."
+  },
+  {
+    "en": "She spent the weekend organizing all the files in her office.",
+    "vi": "Cô ấy dành cả cuối tuần để sắp xếp lại tất cả hồ sơ ở văn phòng."
+  },
+  {
+    "en": "The airline announced that the flight would be delayed by two hours.",
+    "vi": "Hãng hàng không thông báo chuyến bay sẽ bị trễ hai giờ."
+  },
+  {
+    "en": "My neighbor offered to water our plants while we were on vacation.",
+    "vi": "Hàng xóm của tôi đề nghị tưới cây giúp khi chúng tôi đi nghỉ."
+  },
+  {
+    "en": "The technician came to fix the internet connection early this morning.",
+    "vi": "Kỹ thuật viên đến sửa kết nối internet vào sáng sớm nay."
+  },
+  {
+    "en": "We decided to postpone the trip because of the heavy snow.",
+    "vi": "Chúng tôi quyết định hoãn chuyến đi vì tuyết rơi dày."
+  },
+  {
+    "en": "The new intern is learning how to use the accounting software.",
+    "vi": "Thực tập sinh mới đang học cách sử dụng phần mềm kế toán."
+  },
+  {
+    "en": "I spent almost twenty minutes looking for a parking spot downtown.",
+    "vi": "Tôi mất gần hai mươi phút để tìm chỗ đậu xe ở trung tâm thành phố."
+  },
+  {
+    "en": "The doctor advised him to drink more water and get more sleep.",
+    "vi": "Bác sĩ khuyên anh ấy uống nhiều nước hơn và ngủ nhiều hơn."
+  },
+  {
+    "en": "Our team celebrated the end of the project with a small dinner.",
+    "vi": "Nhóm chúng tôi ăn mừng kết thúc dự án bằng một bữa tối nhỏ."
+  },
+  {
+    "en": "The landlord agreed to fix the broken window by the end of the week.",
+    "vi": "Chủ nhà đồng ý sửa cửa sổ bị vỡ trước cuối tuần."
+  },
+  {
+    "en": "She missed her connecting flight because the first one landed late.",
+    "vi": "Cô ấy lỡ chuyến bay nối chuyến vì chuyến đầu hạ cánh trễ."
+  },
+  {
+    "en": "The store manager was training two new employees this morning.",
+    "vi": "Quản lý cửa hàng đang đào tạo hai nhân viên mới sáng nay."
+  },
+  {
+    "en": "We spent the evening watching a documentary about ocean life.",
+    "vi": "Chúng tôi dành buổi tối xem một bộ phim tài liệu về sinh vật biển."
+  },
+  {
+    "en": "He forgot his umbrella and got completely soaked on the way home.",
+    "vi": "Anh ấy quên mang ô nên bị ướt sũng trên đường về nhà."
+  },
+  {
+    "en": "The committee will review all the applications by next Friday.",
+    "vi": "Hội đồng sẽ xem xét tất cả hồ sơ trước thứ Sáu tuần sau."
+  },
+  {
+    "en": "My brother is thinking about applying for a job overseas.",
+    "vi": "Anh trai tôi đang cân nhắc ứng tuyển một công việc ở nước ngoài."
+  },
+  {
+    "en": "The hotel offered us a free upgrade because of the noise outside.",
+    "vi": "Khách sạn đề nghị nâng hạng phòng miễn phí vì tiếng ồn bên ngoài."
+  },
+  {
+    "en": "She had to reschedule her flight because of a family emergency.",
+    "vi": "Cô ấy phải đổi lịch chuyến bay vì có việc gia đình khẩn cấp."
+  },
+  {
+    "en": "The construction on our street has made the traffic much worse.",
+    "vi": "Việc thi công trên đường phố chúng tôi khiến giao thông tệ hơn nhiều."
+  },
+  {
+    "en": "Our accountant is preparing the financial statements for this quarter.",
+    "vi": "Kế toán của chúng tôi đang chuẩn bị báo cáo tài chính cho quý này."
+  },
+  {
+    "en": "The children were disappointed when the picnic was cancelled due to rain.",
+    "vi": "Bọn trẻ thất vọng khi buổi dã ngoại bị hủy vì trời mưa."
+  },
+  {
+    "en": "He spent his lunch break returning a few phone calls.",
+    "vi": "Anh ấy dành giờ nghỉ trưa để gọi lại vài cuộc điện thoại."
+  },
+  {
+    "en": "The gym extended its opening hours during the holiday season.",
+    "vi": "Phòng gym kéo dài giờ mở cửa trong mùa lễ hội."
+  },
+  {
+    "en": "We finally found an apartment close to both our offices.",
+    "vi": "Cuối cùng chúng tôi cũng tìm được căn hộ gần cả hai văn phòng."
+  },
+  {
+    "en": "The waiter recommended the soup instead of the salad.",
+    "vi": "Người phục vụ gợi ý món súp thay vì món salad."
+  },
+  {
+    "en": "She left the office early to pick up her son from practice.",
+    "vi": "Cô ấy rời văn phòng sớm để đón con trai sau buổi tập."
+  },
+  {
+    "en": "The delivery driver left the package with our neighbor next door.",
+    "vi": "Người giao hàng để gói hàng lại nhà hàng xóm cạnh bên."
+  },
+  {
+    "en": "Our department is switching to a new scheduling system next month.",
+    "vi": "Phòng ban chúng tôi sẽ chuyển sang hệ thống lên lịch mới vào tháng tới."
+  },
+  {
+    "en": "He spent the whole morning cleaning out the garage.",
+    "vi": "Anh ấy dành cả buổi sáng để dọn dẹp nhà để xe."
+  },
+  {
+    "en": "The client asked for a discount because of the shipping delay.",
+    "vi": "Khách hàng yêu cầu giảm giá vì việc giao hàng bị chậm."
+  },
+  {
+    "en": "We are hosting a small farewell party for our coworker on Friday.",
+    "vi": "Chúng tôi sẽ tổ chức một bữa tiệc chia tay nhỏ cho đồng nghiệp vào thứ Sáu."
+  },
+  {
+    "en": "The plumber said the leak was coming from an old pipe.",
+    "vi": "Thợ sửa ống nước nói rằng chỗ rò rỉ đến từ một đường ống cũ."
+  },
+  {
+    "en": "She practices yoga every morning before getting ready for work.",
+    "vi": "Cô ấy tập yoga mỗi sáng trước khi chuẩn bị đi làm."
+  },
+  {
+    "en": "The airline lost one of our suitcases during the connecting flight.",
+    "vi": "Hãng hàng không làm thất lạc một vali của chúng tôi trong chuyến bay nối chuyến."
+  },
+  {
+    "en": "Our manager praised the team for finishing the project early.",
+    "vi": "Sếp của chúng tôi khen ngợi cả nhóm vì hoàn thành dự án sớm."
+  },
+  {
+    "en": "He usually reads a chapter of his book before falling asleep.",
+    "vi": "Anh ấy thường đọc một chương sách trước khi đi ngủ."
+  },
+  {
+    "en": "The office will be closed for maintenance this coming weekend.",
+    "vi": "Văn phòng sẽ đóng cửa để bảo trì vào cuối tuần này."
+  },
+  {
+    "en": "She volunteers at the animal shelter every other Saturday.",
+    "vi": "Cô ấy tình nguyện ở trại cứu hộ động vật hai tuần một lần vào thứ Bảy."
+  },
+  {
+    "en": "The traffic light at the corner has been broken since Tuesday.",
+    "vi": "Đèn giao thông ở góc đường đã bị hỏng từ thứ Ba."
+  },
+  {
+    "en": "We need to renew the insurance before it expires next week.",
+    "vi": "Chúng ta cần gia hạn bảo hiểm trước khi nó hết hạn vào tuần tới."
+  },
+  {
+    "en": "The chef added extra spices to make the dish more flavorful.",
+    "vi": "Đầu bếp cho thêm gia vị để món ăn đậm đà hơn."
+  },
+  {
+    "en": "He spent the afternoon fixing the fence that fell during the storm.",
+    "vi": "Anh ấy dành cả buổi chiều để sửa hàng rào bị đổ trong cơn bão."
+  }
+];
 
 // Part F — Passage Reconstruction (read for 30s, then reconstruct in your own words in 90s)
-const PASSAGE_BANK = [];
+const PASSAGE_BANK = [
+{
+    "en": "Last month, our company allowed employees to work from home two days a week. At first, some people worried it would be hard to stay focused. However, most employees say they are actually more productive at home. Our manager is now considering making this a permanent policy.",
+    "vi": "Tháng trước, công ty tôi cho phép nhân viên làm việc tại nhà hai ngày một tuần. Lúc đầu, một số người lo rằng sẽ khó tập trung. Tuy nhiên, hầu hết nhân viên nói rằng họ thực sự làm việc hiệu quả hơn khi ở nhà. Sếp của chúng tôi hiện đang cân nhắc biến điều này thành chính sách lâu dài.",
+    "summary": "Our company introduced two remote workdays a week, and although some worried about focus, most employees became more productive, so the manager may make it permanent.",
+    "summaryVi": "Công ty tôi áp dụng hai ngày làm việc từ xa mỗi tuần, dù một số người lo ngại về sự tập trung nhưng hầu hết nhân viên lại làm việc hiệu quả hơn, nên sếp có thể sẽ biến chính sách này thành lâu dài."
+  },
+  {
+    "en": "This spring, I decided to start a small vegetable garden in my backyard. I planted tomatoes, peppers, and a few herbs. In the beginning, many of the plants didn't grow well because I watered them too much. After reading some gardening tips online, I finally started getting a good harvest.",
+    "vi": "Mùa xuân này, tôi quyết định trồng một khu vườn rau nhỏ ở sân sau. Tôi trồng cà chua, ớt và vài loại rau thơm. Lúc đầu, nhiều cây không phát triển tốt vì tôi tưới nước quá nhiều. Sau khi đọc vài mẹo làm vườn trên mạng, cuối cùng tôi cũng bắt đầu thu hoạch được.",
+    "summary": "I started a backyard vegetable garden this spring, struggled at first from overwatering, and eventually got a good harvest after learning some gardening tips online.",
+    "summaryVi": "Tôi bắt đầu trồng vườn rau ở sân sau mùa xuân này, ban đầu gặp khó khăn vì tưới quá nhiều nước, nhưng sau đó thu hoạch tốt nhờ học được vài mẹo làm vườn trên mạng."
+  },
+  {
+    "en": "Yesterday, I had my annual performance review with my manager. She said my work on the marketing campaign was excellent this year. However, she also suggested that I improve my time management skills. Overall, I left the meeting feeling motivated to do even better next year.",
+    "vi": "Hôm qua, tôi có buổi đánh giá hiệu suất hàng năm với quản lý của mình. Cô ấy nói công việc của tôi trong chiến dịch marketing năm nay rất xuất sắc. Tuy nhiên, cô ấy cũng gợi ý tôi nên cải thiện kỹ năng quản lý thời gian. Nhìn chung, tôi rời cuộc họp với cảm giác có động lực để làm tốt hơn nữa vào năm sau.",
+    "summary": "My annual review went well overall — my manager praised my marketing work but suggested better time management, leaving me motivated for next year.",
+    "summaryVi": "Buổi đánh giá hàng năm của tôi nhìn chung diễn ra tốt — sếp khen công việc marketing của tôi nhưng gợi ý tôi quản lý thời gian tốt hơn, khiến tôi có động lực cho năm sau."
+  },
+  {
+    "en": "Every summer, my whole family gathers at my grandparents' house by the river. Cousins from different cities come together for a few days of games and cooking. This year, we also organized a small fishing competition for the kids. Everyone agreed it was one of the best reunions we've had in years.",
+    "vi": "Mỗi mùa hè, cả gia đình tôi tụ họp tại nhà ông bà bên bờ sông. Anh chị em họ từ nhiều thành phố khác nhau cùng về chơi và nấu ăn trong vài ngày. Năm nay, chúng tôi còn tổ chức một cuộc thi câu cá nhỏ cho bọn trẻ. Mọi người đều đồng ý đây là một trong những lần đoàn tụ vui nhất trong nhiều năm.",
+    "summary": "My family's yearly summer reunion at my grandparents' riverside house this year included a kids' fishing contest, making it one of our best gatherings in years.",
+    "summaryVi": "Buổi đoàn tụ hè hàng năm của gia đình tôi tại nhà ông bà bên sông năm nay có thêm cuộc thi câu cá cho trẻ em, trở thành một trong những lần tụ họp vui nhất nhiều năm qua."
+  },
+  {
+    "en": "Our office recently got a new coffee machine, and it has caused more debate than expected. Some employees love the strong espresso option, while others complain it's too bitter. The office manager is now collecting feedback to decide whether to keep it. Meanwhile, the old coffee machine still sits unused in the corner.",
+    "vi": "Văn phòng chúng tôi gần đây có máy pha cà phê mới, và nó gây ra nhiều tranh cãi hơn dự kiến. Một số nhân viên thích món espresso đậm, trong khi những người khác phàn nàn nó quá đắng. Quản lý văn phòng hiện đang thu thập ý kiến để quyết định có giữ lại máy hay không. Trong khi đó, chiếc máy pha cà phê cũ vẫn nằm im trong góc phòng.",
+    "summary": "A new office coffee machine has sparked debate between employees who love the strong espresso and those who find it too bitter, so the manager is gathering feedback.",
+    "summaryVi": "Máy pha cà phê mới ở văn phòng gây tranh cãi giữa những người thích espresso đậm và những người thấy nó quá đắng, nên quản lý đang thu thập ý kiến phản hồi."
+  },
+  {
+    "en": "Two months ago, my family adopted a small dog from a local shelter. At first, he was very shy and hid under the sofa most of the day. Slowly, with patience and daily walks, he became more comfortable around us. Now he greets everyone at the door and follows the kids everywhere.",
+    "vi": "Hai tháng trước, gia đình tôi đã nhận nuôi một chú chó nhỏ từ trại cứu hộ địa phương. Lúc đầu, nó rất nhút nhát và trốn dưới ghế sofa gần như cả ngày. Dần dần, nhờ kiên nhẫn và những buổi đi dạo hàng ngày, nó trở nên thoải mái hơn với chúng tôi. Bây giờ nó chào đón mọi người ở cửa và đi theo bọn trẻ khắp nơi.",
+    "summary": "My family adopted a shy shelter dog two months ago, and with patience and daily walks, he has become comfortable and now follows the kids everywhere.",
+    "summaryVi": "Gia đình tôi nhận nuôi một chú chó nhút nhát từ trại cứu hộ hai tháng trước, và nhờ kiên nhẫn cùng những buổi đi dạo hàng ngày, giờ nó đã thoải mái và luôn đi theo bọn trẻ."
+  },
+  {
+    "en": "Next week, our team is presenting a new proposal to one of our biggest clients. We have been preparing the slides and practicing our talking points for days. Everyone is a little nervous because this client can be difficult to please. Still, we believe the plan we've built is strong enough to win their approval.",
+    "vi": "Tuần tới, nhóm chúng tôi sẽ trình bày một đề xuất mới cho một trong những khách hàng lớn nhất của công ty. Chúng tôi đã chuẩn bị slide và luyện tập nội dung trình bày trong nhiều ngày. Mọi người hơi lo lắng vì khách hàng này khá khó tính. Dù vậy, chúng tôi tin rằng kế hoạch đã xây dựng đủ tốt để thuyết phục họ.",
+    "summary": "My team has spent days preparing a proposal for a demanding client and, despite some nervousness, believes the plan is strong enough to win approval.",
+    "summaryVi": "Nhóm tôi đã dành nhiều ngày chuẩn bị đề xuất cho một khách hàng khó tính và, dù có phần lo lắng, vẫn tin rằng kế hoạch đủ tốt để thuyết phục họ."
+  },
+  {
+    "en": "Every Saturday morning, I like to visit the farmers market near my house. I usually buy fresh vegetables, local honey, and sometimes homemade bread. The vendors are always friendly and happy to explain where their products come from. It has become one of my favorite ways to start the weekend.",
+    "vi": "Mỗi sáng thứ Bảy, tôi thích ghé thăm chợ nông sản gần nhà. Tôi thường mua rau tươi, mật ong địa phương, và đôi khi cả bánh mì tự làm. Những người bán hàng luôn thân thiện và vui vẻ giải thích sản phẩm của họ đến từ đâu. Đây đã trở thành một trong những cách tôi thích nhất để bắt đầu cuối tuần.",
+    "summary": "I enjoy visiting the local farmers market every Saturday to buy fresh produce from friendly vendors, making it my favorite way to start the weekend.",
+    "summaryVi": "Tôi thích ghé chợ nông sản địa phương mỗi thứ Bảy để mua nông sản tươi từ những người bán hàng thân thiện, đây là cách tôi yêu thích nhất để bắt đầu cuối tuần."
+  },
+  {
+    "en": "Our department welcomed a new colleague this week, and she has already made a great impression. She asks thoughtful questions and is quick to learn our systems. During lunch, she shared some interesting ideas from her previous job that could help our team. Everyone is excited to see what she brings to future projects.",
+    "vi": "Phòng ban chúng tôi đã chào đón một đồng nghiệp mới tuần này, và cô ấy đã tạo ấn tượng rất tốt. Cô ấy đặt những câu hỏi sâu sắc và học các hệ thống của chúng tôi rất nhanh. Trong giờ ăn trưa, cô ấy chia sẻ vài ý tưởng thú vị từ công việc trước có thể giúp ích cho nhóm. Mọi người đều háo hức xem cô ấy sẽ đóng góp gì cho các dự án sắp tới.",
+    "summary": "Our new colleague made a strong first impression this week by learning quickly and sharing helpful ideas from her previous job, exciting the team about future projects.",
+    "summaryVi": "Đồng nghiệp mới của chúng tôi đã tạo ấn tượng tốt trong tuần này nhờ học nhanh và chia sẻ những ý tưởng hữu ích từ công việc trước, khiến cả nhóm háo hức về các dự án sắp tới."
+  },
+  {
+    "en": "At the age of thirty-five, I finally decided to learn how to swim. I was always afraid of deep water as a child, and that fear stayed with me for years. My instructor was very patient and started with simple breathing exercises in the shallow end. After three months of lessons, I can now swim across the pool without stopping.",
+    "vi": "Ở tuổi ba mươi lăm, cuối cùng tôi cũng quyết định học bơi. Khi còn nhỏ tôi luôn sợ nước sâu, và nỗi sợ đó theo tôi suốt nhiều năm. Huấn luyện viên của tôi rất kiên nhẫn và bắt đầu bằng các bài tập thở đơn giản ở khu vực nước nông. Sau ba tháng học, giờ tôi có thể bơi qua hồ mà không cần dừng lại.",
+    "summary": "After years of fearing deep water, I finally learned to swim at thirty-five with a patient instructor and can now cross the pool without stopping.",
+    "summaryVi": "Sau nhiều năm sợ nước sâu, cuối cùng tôi cũng học bơi được ở tuổi ba mươi lăm nhờ một huấn luyện viên kiên nhẫn, và giờ tôi có thể bơi qua hồ mà không cần dừng lại."
+  },
+  {
+    "en": "December is always the busiest month for our shipping department. Orders increase dramatically as customers shop for the holidays. This year, we hired extra temporary workers to help pack and send orders on time. Even so, the whole team has been working longer hours than usual to keep up with demand.",
+    "vi": "Tháng Mười Hai luôn là tháng bận rộn nhất đối với bộ phận giao hàng của chúng tôi. Đơn hàng tăng mạnh khi khách hàng mua sắm cho dịp lễ. Năm nay, chúng tôi thuê thêm nhân viên thời vụ để giúp đóng gói và gửi đơn hàng đúng hạn. Dù vậy, cả nhóm vẫn phải làm việc nhiều giờ hơn bình thường để đáp ứng nhu cầu.",
+    "summary": "December is our shipping department's busiest month, and despite hiring extra temporary workers this year, the team is still working longer hours to keep up with holiday demand.",
+    "summaryVi": "Tháng Mười Hai là tháng bận rộn nhất của bộ phận giao hàng chúng tôi, và dù đã thuê thêm nhân viên thời vụ năm nay, cả nhóm vẫn phải làm việc nhiều giờ hơn để đáp ứng nhu cầu dịp lễ."
+  },
+  {
+    "en": "Three weeks ago, we moved to a new neighborhood on the other side of the city. It took some time to get used to the different shops and streets around us. Fortunately, our neighbors have been very welcoming and even invited us over for dinner. We are starting to feel like this new area is becoming home.",
+    "vi": "Ba tuần trước, chúng tôi chuyển đến một khu phố mới ở phía bên kia thành phố. Chúng tôi mất một thời gian để quen với các cửa hàng và con đường khác xung quanh. May mắn thay, hàng xóm rất chào đón và thậm chí còn mời chúng tôi sang ăn tối. Chúng tôi bắt đầu cảm thấy khu vực mới này đang trở thành nhà của mình.",
+    "summary": "After moving to a new neighborhood three weeks ago, we're adjusting to the area thanks to welcoming neighbors, and it's starting to feel like home.",
+    "summaryVi": "Sau khi chuyển đến khu phố mới ba tuần trước, chúng tôi đang dần quen nhờ những người hàng xóm chào đón, và nơi đây bắt đầu cảm giác như nhà."
+  },
+  {
+    "en": "Last Friday, our company organized a team building day at a nearby park. We played several outdoor games and worked together to solve a few group challenges. At first, some colleagues seemed a bit awkward, since we don't usually interact outside of work. By the end of the day, though, everyone was laughing and exchanging phone numbers to stay in touch.",
+    "vi": "Thứ Sáu tuần trước, công ty tôi tổ chức ngày team building tại một công viên gần đó. Chúng tôi chơi vài trò chơi ngoài trời và cùng nhau giải quyết vài thử thách nhóm. Lúc đầu, một số đồng nghiệp có vẻ hơi ngại vì chúng tôi thường không tương tác nhiều ngoài công việc. Tuy nhiên, đến cuối ngày, mọi người đều cười vui và trao đổi số điện thoại để giữ liên lạc.",
+    "summary": "Our company's team building day started a bit awkward for colleagues unused to socializing outside work, but ended with everyone laughing and exchanging contact info.",
+    "summaryVi": "Ngày team building của công ty tôi bắt đầu hơi ngại ngùng vì mọi người không quen giao lưu ngoài công việc, nhưng kết thúc với tiếng cười và mọi người trao đổi thông tin liên lạc."
+  },
+  {
+    "en": "My old bicycle had been sitting unused in the garage for over a year. Last weekend, I finally decided to clean it up and fix the flat tire. It took longer than expected because the chain was quite rusty. Once everything was working again, I rode around the neighborhood and remembered how much I used to enjoy cycling.",
+    "vi": "Chiếc xe đạp cũ của tôi đã nằm không dùng trong nhà để xe hơn một năm. Cuối tuần trước, cuối cùng tôi quyết định lau chùi và sửa lốp xe bị xẹp. Việc này mất nhiều thời gian hơn dự kiến vì xích xe khá gỉ sét. Sau khi mọi thứ hoạt động lại, tôi đạp xe quanh khu phố và nhớ lại cảm giác thích đạp xe như trước đây.",
+    "summary": "After my old bicycle sat unused for over a year, I finally repaired it last weekend and rediscovered how much I enjoy cycling around the neighborhood.",
+    "summaryVi": "Sau khi chiếc xe đạp cũ nằm không dùng hơn một năm, cuối tuần trước tôi cuối cùng đã sửa lại và tìm lại niềm vui đạp xe quanh khu phố."
+  },
+  {
+    "en": "Our company recently set up a suggestion box for employees to share ideas. At first, only a few people submitted suggestions, and management wasn't sure it would work. After a coworker suggested flexible lunch hours, the idea was approved and quickly became popular. Now more employees are submitting ideas every week, hoping to see similar changes.",
+    "vi": "Công ty tôi gần đây đã đặt một hộp góp ý để nhân viên chia sẻ ý tưởng. Lúc đầu, chỉ có vài người gửi góp ý, và ban quản lý không chắc điều này sẽ hiệu quả. Sau khi một đồng nghiệp đề xuất giờ ăn trưa linh hoạt, ý tưởng đó được chấp thuận và nhanh chóng được yêu thích. Bây giờ ngày càng nhiều nhân viên gửi ý tưởng mỗi tuần, hy vọng thấy thêm những thay đổi tương tự.",
+    "summary": "A new employee suggestion box at my company was slow to catch on until a flexible lunch hours idea was approved, and now more employees submit ideas each week.",
+    "summaryVi": "Hộp góp ý mới ở công ty tôi ban đầu ít người dùng cho đến khi ý tưởng giờ ăn trưa linh hoạt được chấp thuận, và giờ ngày càng nhiều nhân viên gửi ý tưởng mỗi tuần."
+  }
+];
 
 const MODE_INFO = {
   repeat:        { label:"A. Repeat",                skill:"speaking",  time:15,  ring:"var(--speaking)",  pool:REPEAT_BANK,     round:8 },
